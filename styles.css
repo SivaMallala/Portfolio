@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inconsolata", monospace;
+  background-color: rgb(3, 3, 54);
+  color: aliceblue;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  background-color: rgb(9, 97, 173);
+  color: white;
+}
+
+
+.right ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+.right ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.right ul li a:hover {
+  text-decoration: none;
+  color: rgb(122, 196, 232);
+  font-size: 1.01rem;
+}
+
+.glow-on-hover {
+  width: 150px;
+  height: 40px;
+  border: 1px solid white;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color: #000
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 90px 0;
+  align-items: center;
+}
+
+.firstsection div {
+  width: 30%;
+}
+
+.leftsection {
+  font-size: 2.8rem;
+}
+
+.span {
+  color: blueviolet;
+  font-size: 3.75rem;
+}
+
+#element {
+  color: rgb(178, 122, 232);
+  font-size: 3rem;
+}
+
+.rightsection img {
+  width: 116%;
+}
+
+.rightsection {
+  margin-right: 30px;
+}
+
+hr {
+  border: 0;
+  background: darkcyan;
+  height: 1px;
+  margin: 40px 90px;
+}
+
+.aboutme {
+  height: 80vh;
+  max-width: 80vw;
+  margin: auto;
+
+}
+
+.am1 {
+  display: inline;
+}
+
+.am1 h1 {
+  margin: 40px 30vw;
+  font-size: 2.3rem;
+}
+
+.am1 h4 {
+  font-size: 2rem;
+  margin: 4px 0;
+}
+
+.am1 p {
+  font-size: 1.5rem;
+}
+
+.edu {
+  margin: 0 0 0 40px;
+}
+
+.edu h2 {
+  margin: 40px 0 0 -40px;
+}
+
+.flx {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills {
+  margin: 40px;
+}
+
+.skills h2 {
+  margin-left: -60px;
+}
+
+.skills h5 {
+  margin: 8px;
+  font-size: 1.4rem;
+}
+
+.java {
+  background: -webkit-linear-gradient(#f89820, #5382a1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.fe {
+  background: -webkit-linear-gradient(rgb(251, 77, 3), rgb(111, 111, 233));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.js {
+  background: -webkit-linear-gradient(rgb(210, 251, 3), rgb(206, 236, 13));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.sql {
+  background: -webkit-linear-gradient(#00758F, #F29111);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.git {
+  background: -webkit-linear-gradient(#F1502F, rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.linux {
+  background: -webkit-linear-gradient(rgb(22, 143, 9), rgb(10, 245, 10));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.skills img {
+  height: 30px;
+}
+
+.skills span {
+  display: flex;
+}
+
+.port {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  background-color: #090828;
+  height: 30vh;
+}
+
+.foot {
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.fstfoot span {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.fstfoot img {
+  height: 30px;
+  margin-right: 5px;
+}
+
+.fstfoot span p {
+  font-size: 20px;
+}
+
+.sndfoot ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.sndfoot ul li {
+  list-style: none;
+  margin: 5px 0;
+
+}
+
+.sndfoot {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.trdfoot {
+  margin-top: 15px;
+}
+
+.trdfoot h2 {
+  margin: 5px 0;
+}
+
+.port {
+  height: 60vh;
+}
+
+.projects h2 {
+  margin: 5px 0;
+}
+
+.projects span {
+  padding: 9px;
+}
+
+
+.certi span {
+  padding: 9px;
+  
+}
+
+.btn {
+  margin-left: 5px;
+  padding: 5px;
+  text-align: center;
+  font-size: 7px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  will-change: box-shadow,transform;
+  background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+  box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+
+  border-radius: 6px;
+  color: #fff;
+  text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+  transition: box-shadow 0.15s ease,transform 0.15s ease;
+  :hover {
+      box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+      transform: translateY(-2px);
+  }
+  :active{
+      box-shadow: inset 0px 3px 7px #3c4fe0;
+      transform: translateY(2px);
+  }
+  
+}
