@@ -154,7 +154,7 @@ hr {
 }
 
 .aboutme {
-  height: 80vh;
+  min-height: 864px;
   max-width: 80vw;
   margin: auto;
 
@@ -267,7 +267,8 @@ hr {
 
 footer {
   background-color: #090828;
-  height: 30vh;
+  height:fit-content;
+  padding: 10px;
 }
 
 .foot {
@@ -316,7 +317,7 @@ footer {
 }
 
 .port {
-  height: 60vh;
+  height: 648px;
 }
 
 .projects h2 {
