@@ -260,10 +260,7 @@ hr {
   display: flex;
 }
 
-.port {
-  display: flex;
-  justify-content: space-around;
-}
+
 
 footer {
   background-color: #090828;
@@ -317,7 +314,9 @@ footer {
 }
 
 .port {
-  height: 648px;
+  height: 648px;  
+  display: flex;
+  justify-content: space-around;
 }
 
 .projects h2 {
