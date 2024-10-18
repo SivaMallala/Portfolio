@@ -50,7 +50,7 @@ const skills = [
     },
     {
         title: "Mongoose",
-        icon: "/skills/icons/mongoose.png",
+        icon: "/skills/icons/Mongoose.png",
     },
     {
       title: "MySql",
