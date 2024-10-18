@@ -29,9 +29,10 @@ function ProjectCard({ project }) {
                 target="_blank"
                 className={`w-full relative rounded-xl border-[#7b89a8] border p-2 transition hover:-translate-y-2 hover:opacity-75 hover:border-[#00c7ff] will-change-projectCard`}
             >
-                <img
+                <Image
                     className="w-full rounded-md"
                     src={project.img}
+                    alt="img"
                 />
             </a>
             <div className="w-full mt-5">
@@ -75,9 +76,10 @@ function ProjectCard({ project }) {
                                             {project.gal.map((pic, index) => {
                                                 return (
                                                     <CarouselItem key={pic}>
-                                                        <img
+                                                        <Image
                                                             className="w-full rounded-md"
                                                             src={pic}
+                                                            alt="img"
                                                         />
                                                     </CarouselItem>
 
