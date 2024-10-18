@@ -8,9 +8,9 @@ function Hero() {
         className="relative heroElem w-full pt-20 pb-40 mb-3 m-auto flex justify-center text-center flex-col items-center z-1"
         style={{ maxWidth: "1200px" }}
       >
-        <p className="text-xl mb-5">Hey, I&apos;m Siva Chandu.</p>
+        <p className="text-xl mb-5">Hey, Im Siva Chandu.</p>
         <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-xl md:text-3xl lg:text-5xl tracking-tighter mb-10 font-bold">
-        I&apos;m a <span className=" text-[#00c7ff]"><i>full-stack developer</i></span> passionate about creating powerful and elegant{" "}
+        Im a <span className=" text-[#00c7ff]"><i>full-stack developer</i></span> passionate about creating powerful and elegant{" "}
           <span className=" text-[#00c7ff]"><i>web applications</i></span> and <span className=" text-[#00c7ff]"><i>Coding</i></span>...
           <Image
             className="sqD  w-16 top-[-90px] right-[5%] sm:top-[-90px] sm:right-[170px]"
