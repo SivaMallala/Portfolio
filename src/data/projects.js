@@ -9,6 +9,15 @@ const projects = [
     tags: ["React", "NextJS", "TailwindCSS", "MongoDB", "OAuth"],
   },
   {
+    id: 5,
+    title: "Higher Studies and Placement Resource Website",
+    desc: "Built a platform offering exam resources, placement updates, and doubt clarification by teachers to support students' academic and career goals.",
+    img: "/projects/mj.png",
+    github: "https://github.com/SivaMallala/MajorProject",
+    link:"https://major-project-peach-mu.vercel.app/",
+    tags: ["React", "NextJS", "TailwindCSS", "MongoDB", "NextAuth"],
+  },
+  {
     id: 1,
     title: "Employee Details Management Web Application",
     desc: "Full-stack web application to manage employee details using React.js for the frontend and Spring Boot for the backend. ",
@@ -44,6 +53,7 @@ const projects = [
     link:"https://sivamallala.github.io/Profile/",
     tags: ["HTML","CSS","JavaScript"],
   },
+  
   
 ];
 

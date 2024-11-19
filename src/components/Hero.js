@@ -17,53 +17,63 @@ function Hero() {
             style={{ animationDelay: "0.1s" }}
             src="/doodles/hero/html.svg"
             alt="img"
+            width={64} height={64}
           />
           <Image
             className="sqD hidden sm:block  top-[75px] right-0 w-11"
             style={{ animationDelay: "0.2s" }}
             src="/doodles/hero/nextjs.svg"
             alt="img"
+            width={64} height={64}
+
           />
           <Image
             className="sqD bottom-[-300px] -right-1/4 sm:right-[-20%] opacity-55 lg:bottom-[-310px] lg:right-[-120px] w-[400px]"
             style={{ animationDelay: "0.3s" }}
             src="/doodles/hero/ironhero.png"
             alt="img"
+            width={400} height={64}
           />
           <Image
             className="sqD hidden sm:block bottom-[-340px] left-[-180px]"
             style={{ animationDelay: "0.4s" }}
             src="/doodles/hero/coder.svg"
             alt="img"
+            width={300} height={64}
           />
           <Image
             className="sqD hidden sm:block left-[100px] lg:left-[160px] bottom-[-150px]"
             style={{ animationDelay: "0.5s" }}
             src="/doodles/hero/js.svg"
             alt="img"
+            width={64} height={64}
           />
           <Image
             className="sqD bottom-[-320px] right-[65%] sm:right-[45%]"
             style={{ animationDelay: "0.6s" }}
             src="/doodles/hero/dino.svg"
             alt="img"
+            width={200} height={64}
           />
           <Image
             className="sqD right-[-60px] sm:right-0 bottom-[-180px] lg:[5%]"
             style={{ animationDelay: "0.7s" }}
             src="/doodles/hero/paintbrush.svg"
             alt="img"
+            width={200} height={64}
           />
           <Image
             className="sqD  hidden sm:block sm:top-[-130px] sm:left-[15%] lg:top-[-130px] lg:left-[120px]"
             src="/doodles/hero/pop1.svg"
             alt="img"
+            width={80} height={64}
           />
           <Image
             className="sqD left-[-35px] bottom-[-85px] sm:bottom-[-100px] sm:left-5 opacity-40"
             style={{ animationDelay: "0.9s" }}
             src="/doodles/hero/code.svg"
             alt="img"
+            width={64} height={64}
           />
         </h1>
         <div

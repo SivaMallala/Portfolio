@@ -33,6 +33,7 @@ function ProjectCard({ project }) {
                     className="w-full rounded-md"
                     src={project.img}
                     alt="img"
+                    width={366} height={179}
                 />
             </a>
             <div className="w-full mt-5">
@@ -80,6 +81,7 @@ function ProjectCard({ project }) {
                                                             className="w-full rounded-md"
                                                             src={pic}
                                                             alt="img"
+                                                            width={462} height={220}
                                                         />
                                                     </CarouselItem>
 
